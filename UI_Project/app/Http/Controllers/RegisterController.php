@@ -12,4 +12,10 @@ class RegisterController extends Controller
     public function thankyou(){
         return view('thankyou');
     }
+    public function login(){
+        return view('login');
+    }
+    public function home(){
+        return view('home');
+    }
 }
