@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('/hello', 'App\Http\Controllers\HelloController@index');
 Route::get('/register', 'App\Http\Controllers\RegisterController@register');
+Route::get('/thankyou', 'App\Http\Controllers\RegisterController@thankyou');
