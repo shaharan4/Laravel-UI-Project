@@ -10,6 +10,15 @@
 </head>
 <body>
 @include('nav')
-    
+    <p id="register_page_text">Start giving and receiving cash gifts to celebrate the kids you adore!</p>
+    <div id='register_form_container'>
+        <input type="text" id="first_name" name="firstname" placeholder="First Name"></input>
+        <input type="text" id="last_name" name="lastname" placeholder="Last Name"></input>
+        <input type="text" id="email_address" name="emailaddress" placeholder="Email Address"></input>
+        <input type="text" id="password" name="password" placeholder="Password - at least 8 characters with 1 number"></input>
+        <input type="text" id="confirm_password" name="confirmpassword" placeholder="Confirm Password"></input>
+        <button type="button" id="join_button">JOIN NOW</button>
+    </div>
+    <div class="celebration_egg"></div>
 </body>
 </html>
