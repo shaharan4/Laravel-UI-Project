@@ -184,6 +184,11 @@
 
   }
 
+  #join_button:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  }
+
   .celebration_egg{
     position: absolute;
     background-image: url(../images/celebration_egg.png);
