@@ -20,3 +20,4 @@ Route::get('/register', 'App\Http\Controllers\RegisterController@register');
 Route::get('/thankyou', 'App\Http\Controllers\RegisterController@thankyou');
 Route::get('/login', 'App\Http\Controllers\RegisterController@login');
 Route::get('/home', 'App\Http\Controllers\RegisterController@home');
+Route::post('/account', 'App\Http\Controllers\RegisterController@store');
