@@ -318,7 +318,7 @@
     font-weight: bold;
     color: white;
     background-color: #0c4da2;
-    top: 5%;
+    top: 20%;
     padding: 12px 12px 12px 12px;
     border-radius: 4px;
 
@@ -440,7 +440,7 @@
 }
 
 #forgot_password_text{
-  position: relative;
+  position: absolute;
   width: 100%;
   padding: 2%;
   font-size: 15px;
@@ -451,6 +451,8 @@
   color: #636466;
   margin-bottom: 5%;
   margin-left: 25%;
+  top: 60%;
+  left: -40%;
 }
 
 #forgot_password_text:hover{
@@ -489,13 +491,13 @@ input[type=checkbox]:checked:after {
   left: 6px;
 }
 #login_button{
-  position: relative;
+  position: absolute;
   width: 50%;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: white;
   background-color: #0c4da2;
-  top: 15%;
+  top: 80%;
   left: 20%;
   padding: 12px 12px 12px 12px;
   border-radius: 4px;
@@ -529,8 +531,8 @@ input[type=checkbox]:checked:after {
 }
 
 #signup_now_text{
-  position: relative;
-  top: 30%;
+  position: absolute;
+  top: 50%;
   width: 100%;
   padding: 2%;
   font-style: italic;
@@ -539,7 +541,7 @@ input[type=checkbox]:checked:after {
   font-weight: 300;
   color: #77378e;
   margin-bottom: 5%;
-  left: -20%;
+  left: 20%;
 }
 
 #home_gradient{

@@ -15,18 +15,22 @@
         <form action="/account" method="post">
             @csrf
             <input type="text" class = 'register_form_field' id="first_name" name="firstname" placeholder="First Name"></input>
+            @error('firstname') {{$message}} @enderror
             <input type="text" class = 'register_form_field' id="last_name" name="lastname" placeholder="Last Name"></input>
+            @error('lastname') {{$message}} @enderror
             <input type="text" class = 'register_form_field' id="email_address" name="emailaddress" placeholder="Email Address"></input>
+            @error('emailaddress') {{$message}} @enderror
             <input type="password" class = 'register_form_field' id="password" name="password" placeholder="Password - at least 8 characters with 1 number"></input>
+            @error('password') {{$message}} @enderror
             <input type="password" class = 'register_form_field' id="confirm_password" name="confirmpassword" placeholder="Confirm Password"></input>
+            @error('confirmpassword') {{$message}} @enderror
             <!-- <a href="/thankyou"><button type="button" id="join_button">JOIN NOW</button></a> -->
             <button type="submit" id="join_button">JOIN NOW</button>
         </form>
-        @error('firstname') {{$message}} @enderror
-        @error('lastname') {{$message}} @enderror
-        @error('emailaddress') {{$message}} @enderror
-        @error('password') {{$message}} @enderror
-        @error('confirmpassword') {{$message}} @enderror
+
+
+
+
 
     </div>
 
